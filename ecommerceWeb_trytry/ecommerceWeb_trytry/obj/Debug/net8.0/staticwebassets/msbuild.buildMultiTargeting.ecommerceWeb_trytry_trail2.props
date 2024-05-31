@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ecommerceWeb_trytry_trail2.props" />
+</Project>

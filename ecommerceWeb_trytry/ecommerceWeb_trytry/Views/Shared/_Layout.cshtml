@@ -1,0 +1,307 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ecommerceWeb_trytry_trail2.Areas.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ecommerceWeb_trytry</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ecommerceWeb_trytry.styles.css" asp-append-version="true" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Site specific CSS -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ecommerceWeb_trytry.styles.css" asp-append-version="true" />
+    <!-- SimpleBar CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.css" rel="stylesheet">
+
+    <style>
+
+
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .vertical-nav {
+            width: 250px;
+            height: 100%;
+            background-color: #343a40;
+            color: white;
+            overflow-y: auto;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .horizontal-collapse {
+            width: 0;
+            overflow: hidden;
+            white-space: nowrap;
+            transition: width 0.5s ease;
+        }
+
+            .horizontal-collapse.show {
+                width: 300px; /* Adjust this width as needed */
+            }
+
+        .nav-item {
+            white-space: normal; /* To prevent horizontal overflow */
+        }
+
+
+
+
+        .navbar-brand-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .logo-sm img {
+            margin: 10px; /* Add space around the image */
+        }
+
+
+
+        .rainbow-text {
+            color: red;
+        }
+
+    </style>
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+    <!-- Your body content here -->
+    <!-- Bootstrap Bundle with Popper (if needed for other Bootstrap components) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleBar JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+
+
+
+
+    <div class="vertical-nav">
+        <!-- LOGO -->
+        <div class="navbar-brand-box">
+            <a href="/Products/Index" class="logo logo-dark docs-creator">
+                <span class="logo-sm">
+                    <img src="~/Photo/User-logo.png" alt="User Logo" height="100">
+                </span>
+            </a>
+        </div>
+
+        <div id="scrollbar" data-simplebar class="h-100">
+            <div class="container-fluid">
+                <div id="two-column-menu"></div>
+                <ul class="navbar-nav" id="navbar-nav">
+
+
+                    <li class="nav-item">
+                        <!-- User Menu -->
+                        <a class="nav-link menu-link collapsed docs-creator" href="#sidebarDashboards" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarDashboards">
+                            <i class="ph-gauge"></i> >Farmer Menu</span>
+                        </a>
+
+                        <div class="horizontal-collapse collapse" id="sidebarDashboards">
+                            <ul class="nav nav-sm flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link docs-creator" asp-area="" asp-controller="UserStore" asp-action="SellerProducts">My Store</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/Products/Index" class="nav-link docs-creator">Community Market</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="Products" asp-action="Create" class="nav-link docs-creator">Sell An Item</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Divider -->
+                        <div class="dropdown-divider"></div>
+
+                        @{
+                            // Retrieve the currently logged in user
+                            var user = await UserManager.GetUserAsync(User);
+                            bool isEmployee = false;
+
+                            if (user != null)
+                            {
+                                // Check if the user is in the "farmer" role
+                                isEmployee = await UserManager.IsInRoleAsync(user, "Employee");
+                            }
+                        }
+
+                        @if (isEmployee)
+                        {
+                            <!-- Employee Menu -->
+                            <a class="nav-link menu-link collapsed" href="#sidebarOtherMenu" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarOtherMenu">
+                                <i class="ph-gauge"></i> <span id="rainbow-text">>Employee MENU</span>
+                            </a>
+
+                            <div class="horizontal-collapse collapse" id="sidebarOtherMenu">
+                                <ul class="nav nav-sm flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link docs-creator" asp-area="" asp-controller="Account" asp-action="Register">Register A User</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link docs-creator">-just</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link docs-creator">---some</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link docs-creator">----filler</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link docs-creator">------button</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        }
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <div class="vertical-overlay"></div>
+        <header id="page-topbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="d-flex justify-content-between align-items-center">
+
+                        <!-- Search form -->
+                        <form class="app-search d-none d-md-inline-flex">
+                            <div class="position-relative">
+                                <input type="text" class="form-control" placeholder="(Decoration for now)" autocomplete="off" id="search-options" value="">
+                            </div>
+                            <div class="dropdown-menu dropdown-menu-lg" id="search-dropdown">
+                                <div data-simplebar style="max-height: 320px;">
+                                    <!-- Not functional yet -->
+                                </div>
+                            </div>
+                        </form>
+
+                        <!-- Dropdown Component -->
+                        <div class="dropdown ms-3 header-item topbar-user">
+                            <button type="button" class="btn shadow-none d-flex align-items-center" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded-circle" src="~/Photo/User-logo.png" alt="Header Avatar" style="width: 32px; height: 32px;">
+                                <span class="ms-2">Hello, @UserManager.GetUserName(User)!</span>
+                            </button>
+
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <h6 class="dropdown-header">Welcome</h6>
+                                <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Index">
+                                    <span class="align-middle">Profile</span>
+                                </a>
+                                <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Email">
+                                    <span class="align-middle">Email</span>
+                                </a>
+                                <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/ChangePassword">
+                                    <span class="align-middle">Password</span>
+                                </a>
+                                <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/TwoFactorAuthentication">
+                                    <span class="align-middle">Two-factor authentication</span>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/PersonalData">
+                                    <span class="badge bg-success-subtle text-success mt-1 float-end">New</span>
+                                    <span class="align-middle">Personal data</span>
+                                </a>
+                                <form method="post" asp-area="Identity" asp-page="/Account/Logout" class="d-inline">
+                                    <button type="submit" class="dropdown-item">
+                                        <i class="mdi mdi-logout text-muted fs-lg align-middle me-1"></i>
+                                        <span class="align-middle">Logout</span>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - ecommerceWeb_trytry - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+
+
+
+        <script>
+            // JavaScript function to change the color of the text
+            function rainbowEffect(element) {
+                const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+                let colorIndex = 0;
+
+                setInterval(() => {
+                    element.style.color = colors[colorIndex];
+                    colorIndex = (colorIndex + 1) % colors.length;
+                }, 200); // Change color every 200 milliseconds
+            }
+
+            // Apply the rainbow effect to the text with id "rainbow-text"
+            document.addEventListener('DOMContentLoaded', () => {
+                const rainbowText = document.getElementById('rainbow-text');
+                rainbowEffect(rainbowText);
+            });
+        </script>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+   

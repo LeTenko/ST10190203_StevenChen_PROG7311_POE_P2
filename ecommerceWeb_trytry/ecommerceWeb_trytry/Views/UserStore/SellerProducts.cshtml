@@ -1,0 +1,76 @@
+﻿@model IEnumerable<ecommerceWeb_trytry.Models.Product>
+
+@{
+    ViewData["Title"] = "Seller Products";
+    var email = Model.FirstOrDefault()?.ProductSellerEmail;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            background-image: url('~/path/to/your/image.jpg'); /* Replace with the correct path to your image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: cadetblue; /* Optional: Adjust text color to ensure readability */
+        }
+
+        .content-wrapper {
+            background-color: floralwhite; 
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container content-wrapper">
+        <h1>Seller Products</h1>
+
+        <div>
+            <a asp-action="SortProducts" asp-route-email="@email" asp-route-sortOrder="date">Sort by Date Ascending</a> |
+            <a asp-action="SortProducts" asp-route-email="@email" asp-route-sortOrder="date_desc">Sort by Date Descending</a> |
+            <a asp-action="SortProducts" asp-route-email="@email" asp-route-sortOrder="type">Sort by Type Ascending</a> |
+            <a asp-action="SortProducts" asp-route-email="@email" asp-route-sortOrder="type_desc">Sort by Type Descending</a>
+        </div>
+
+        @if (Model != null && Model.Any())
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Image</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Date Range</th>
+                        <th>Product Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model)
+                    {
+                        <tr>
+                            <td>@product.ProductName</td>
+                            <td>
+                                <img src="~/Photo/@product.ProductImage" width="60" />
+                            </td>
+                            <td>@product.ProductDescription</td>
+                            <td>@product.ProductPrice</td>
+                            <td>@product.ProductProduceTime.ToString("yyyy/MM/dd")</td>
+                            <td>@product.ProductType</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>No products found for the specified seller.</p>
+        }
+    </div>
+</body>
+</html>

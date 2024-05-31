@@ -1,0 +1,297 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ecommerceWeb_trytry_trail2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ecommerceWeb_trytry_trail2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\Photo\\User-logo.png",
+      "PackagePath": "staticwebassets\\Photo\\User-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\Photo\\dragonkilla.png",
+      "PackagePath": "staticwebassets\\Photo\\dragonkilla.png"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\Photo\\emerald_hoe.png",
+      "PackagePath": "staticwebassets\\Photo\\emerald_hoe.png"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\Photo\\enchanted_diamond_pik.png",
+      "PackagePath": "staticwebassets\\Photo\\enchanted_diamond_pik.png"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\Photo\\niceAXE.png",
+      "PackagePath": "staticwebassets\\Photo\\niceAXE.png"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\Photo\\styelish_fruit_knife.png",
+      "PackagePath": "staticwebassets\\Photo\\styelish_fruit_knife.png"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\js\\Cart.js",
+      "PackagePath": "staticwebassets\\js\\Cart.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\steve\\OneDrive\\Desktop\\ST10190203_HanHongChen_StevenChen_PROG7311_POE_P2\\ecommerceWeb_trytry\\ecommerceWeb_trytry\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ecommerceWeb_trytry_trail2.props",
+      "PackagePath": "build\\ecommerceWeb_trytry_trail2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ecommerceWeb_trytry_trail2.props",
+      "PackagePath": "buildMultiTargeting\\ecommerceWeb_trytry_trail2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ecommerceWeb_trytry_trail2.props",
+      "PackagePath": "buildTransitive\\ecommerceWeb_trytry_trail2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ecommerceWeb_trytry_trail2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,34 @@
+﻿@model IEnumerable<ecommerceWeb_trytry.Models.Product>
+
+@{
+    ViewData["Title"] = "Seller Products";
+}
+
+<h1>Seller Products</h1>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.ProductName</td>
+                    <td>@product.ProductDescription</td>
+                    <td>@product.ProductPrice</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No products found for the specified seller.</p>
+}
